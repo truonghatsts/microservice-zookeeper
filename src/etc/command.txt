@@ -1,0 +1,7 @@
+# To setup the h2 database run.
+java -jar target/dropwizard-example-0.9.0-SNAPSHOT.jar db migrate example.yml
+
+# To run the server run.
+java -jar target/dropwizard-example-0.9.0-SNAPSHOT.jar server Service-A.yml
+java -jar target/dropwizard-example-0.9.0-SNAPSHOT.jar server Service-B.yml
+java -jar target/dropwizard-example-0.9.0-SNAPSHOT.jar server Service-C.yml
